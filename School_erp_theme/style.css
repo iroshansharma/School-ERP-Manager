@@ -1,0 +1,111 @@
+/*
+    Theme Name: School management mini erp
+    Author: Roshan Sharma
+    Version: 1.0
+*/
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+/* Main Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* logo */
+.logo {
+    display: block;
+    margin-left: 10%;
+    margin-right: auto;
+    width: 50%; /* Adjust the width as needed */
+}
+
+/* Header Section */
+.header{
+    text-align:center;
+}
+
+/* nav_menu */
+.nav_menu{
+
+}
+
+
+
+/* Hero Section */
+.hero_section {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+    .hero_section h1 {
+        color: lightcoral;
+        margin-bottom: 20px;
+    }
+
+    .hero_section h2 {
+        color: lightcoral;
+    }
+
+/* About Section */
+.About-school {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Blog Section */
+.page_blog {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Footer */
+.footer {
+    margin-top: 50px;
+    background: #222;
+    color: white;
+    padding: 40px 20px;
+}
+
+/* Footer Widgets */
+.footer-widgets {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.sidebar1,
+.sidebar2,
+.sidebar3 {
+    flex: 1;
+    min-width: 250px;
+}
+
+.sidebar1 {
+    text-align: left;
+}
+
+.sidebar2 {
+    text-align: center;
+}
+
+.sidebar3 {
+    text-align: right;
+}
+
+/* Copyright */
+.copyright {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #444;
+    padding-top: 15px;
+    color: #ccc;
+}
